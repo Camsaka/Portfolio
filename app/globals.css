@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes loadingAnimation {
+   0%, 20%, 80%, 100% {
+     transform: scale(1);
+   }
+   40% {
+     transform: scale(1.5);
+   }
+ }
+ 
+ .loader-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .loader {
+   display: inline-block;
+   margin: 8px;
+   border-radius: 50%;
+   background: #faf9f9; /* Couleur des points */
+   animation: loadingAnimation 1.5s infinite;
+ }
