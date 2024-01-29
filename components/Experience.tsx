@@ -4,8 +4,7 @@ const Experience = () => {
    return (
       <section
          id="experience"
-         className="flex flex-row items-center justify-center h-full overflow-hidden"
-         style={{ transform: "scale(0.9" }}
+         className="flex flex-row items-center justify-center h-full overflow-hidden transform scale-90"
       >
          <div className="flex flex-col justify-around flex-wrap items-center max-w-3xl">
             <h1 className="font-semibold text-center text-5xl text-transparent bg-clip-text bg-gradient-to-r  from-cyan-700 to-lime-200 pb-5">
