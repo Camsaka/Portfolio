@@ -13,27 +13,37 @@ const Experience = () => {
             </h1>
             <p className="text-white text-center my-5 text-base">
                J&apos;ai travailler durant 2 ans pour en tant que développeur
-               intégrateur pour un client du secteur banquaire. Je connais bien
-               les méthodes de gestion de projet notamment agile et j&apos;
-               l&apos;habitude de travailler en équipe. Jai développer des
-               projets supplémentaire de mon coté que vous pourrez parcourir
-               plus bas. N&ppos;hésitez pas à passer sur mon GitHub je suis toujours
-               sur un nouveau projet afin de ne pas perdre la main.
+               intégrateur pour un client du secteur banquaire. J&apos;ai
+               contribué au développement et à la dockerisation de la
+               plateforme, résolu des anomalies, géré le versioning et le CI/CD
+               avec Gitlab. Mon rôle comprenait également la collecte des
+               besoins, l&apos;estimation des charges, la rédaction de
+               spécifications fonctionnelles et la formation des nouveaux
+               arrivants.
+               <br />
+               <br />
+               Je suis polyvalent et contribue sur tout les plans à
+               l&apos;efficacité opérationnelle de l&apos;équipe. Je connais
+               bien les méthodes de gestion de projet notamment agile et
+               j&apos;ai l&apos;habitude de travailler en équipe. Je développe
+               également des side projects que vous pouvez parcourir plus bas.
+               <br />
+               N&apos;hésitez pas à passer sur mon GitHub.
             </p>
             <div className="flex space-x-4">
-               <div className="bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-400">
+               <div className="bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
                   React
                </div>
-               <div className="bg-transparent mt-5  cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-400">
+               <div className="bg-transparent mt-5  cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
                   JavaScript
                </div>
-               <div className="bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-400">
+               <div className="bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
                   Typescript
                </div>
-               <div className="bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-400">
+               <div className="bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
                   Node.js
                </div>
-               <div className="bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-400">
+               <div className="bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
                   Solidity
                </div>
             </div>

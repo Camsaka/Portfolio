@@ -17,14 +17,13 @@ const About = () => {
                autodidacte depuis jeune. Je suis curieux, fédérateur et
                perfectionniste, je cherche toujours à apprendre, à
                m&apos;améliorer et n&apos;ai pas peur de me lancer dans de
-               nouveaux projets. Je suis actuellement à la recherche d&apos;un
-               emploi à Paris.
+               nouveaux projets.
                <br />
                <br />
                Je maîtrise les langages de programmation tels que JavaScript et
                TypeScript, ainsi que des frameworks comme Node.js, Express, et
                ReactJS. J&apos;ai également une bonne connaissance de la
-               programmation orientée objet et des langages SQL et NoSQL. Avec
+               programmation orientée objets et des langages SQL et NoSQL. Avec
                une spécialisation dans le web3 je sais également utilisé les
                outils permettant de l&apos;intégrer à vos applications. Solidity
                et Ethers.js n&apos;ont plus aucun secret pour moi.

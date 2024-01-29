@@ -27,7 +27,7 @@ export default function Banner() {
             </p>
             <div className="text-md flex justify-center">
                <button
-                  onClick={() => window.open("mailto:camille.gaut@sfr.fr")}
+                  onClick={() => window.open("mailto:camille.gautier.pro@gmail.com")}
                   className="text-white font-semibold hover:bg-white rounded-3xl hover:text-gray-950 py-3 px-10 border border-white hover:border-transparent"
                >
                   Contacter moi

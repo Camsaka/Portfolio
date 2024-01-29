@@ -10,7 +10,7 @@ const Projects = () => {
          </h1>
          <div className="flex flex-col justify-center">
             <div className="grid grid-cols-3 justify-items-center gap-10 mt-10">
-               <div className="flex flex-col md:flex-row max-w-[400px] border-[1px] border-lime-200 hover:border-cyan-600 rounded-2xl overflow-hidden bg-transparent px-10 py-2">
+               <div className="flex flex-col md:flex-row max-w-[400px] border-[1px] border-cyan-600 hover:border-lime-200 rounded-xl overflow-hidden bg-transparent px-10 py-2">
                   <Link
                      href="https://r3vive.vercel.app/"
                      rel="noopener noreferrer"
@@ -33,7 +33,7 @@ const Projects = () => {
                      </div>
                   </Link>
                </div>
-               <div className="flex flex-row items-center max-w-[400px] border-[1px] border-lime-200 hover:border-cyan-600 rounded-2xl overflow-hidden bg-transparent px-10 py-2">
+               <div className="flex flex-row items-center max-w-[400px] border-[1px] border-cyan-600 hover:border-lime-200 rounded-xl overflow-hidden bg-transparent px-10 py-2">
                   <Link
                      href="https://emojis-search-phi.vercel.app/"
                      rel="noopener noreferrer"
@@ -56,7 +56,7 @@ const Projects = () => {
                      </div>
                   </Link>
                </div>
-               <div className="flex flex-row items-center max-w-[400px] border-[1px] border-lime-200 hover:border-cyan-600 rounded-2xl overflow-hidden bg-transparent px-10 py-2">
+               <div className="flex flex-row items-center max-w-[400px] border-[1px] border-cyan-600 hover:border-lime-200 rounded-xl overflow-hidden bg-transparent px-10 py-2">
                   <Link
                      href="https://my-nba-livid.vercel.app/login"
                      rel="noopener noreferrer"
@@ -65,16 +65,16 @@ const Projects = () => {
                   >
                      <div className="flex-row flex items-center my-auto">
                         <Image
-                           src="/basketball.svg"
+                           src="/nba.svg"
                            height={100}
                            width={100}
                            alt="Emojis"
+                           ba
                         />
                         <div className="p-3 h-full ml-3">
                            <p className="text-white text-2xl">My NBA</p>
                            <p className="text-gray-500 text-sm">
-                              Plateforme pour laisser des commentaires à des
-                              joueurs de NBA.
+                              Plateforme d&apos;échange autour des joueurs de NBA.
                            </p>
                         </div>
                      </div>

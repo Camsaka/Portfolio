@@ -8,7 +8,7 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
    return (
-      <main className="h-full w-full  bg-[url('/LooperGroup2.png')] bg-no-repeat bg-black">
+      <main className="h-full w-full">
          <Background
             starCount={10000}
             starColor={[255, 255, 255]}
