@@ -12,7 +12,7 @@ const Projects = () => {
             PROJETS
          </h1>
          <div className="grid grid-cols-3 justify-items-center justify-around gap-10 mt-10">
-            <div className="flex md:flex-row max-w-[400px] border-[1px] border-cyan-600 hover:border-lime-200 rounded-xl overflow-hidden bg-transparent px-10 py-2">
+            <div className="flex md:flex-row max-w-[400px] border-[1px] hover:border-lime-200 rounded-xl overflow-hidden bg-transparent px-10 py-2">
                <Link
                   href="https://r3vive.vercel.app/"
                   rel="noopener noreferrer"
@@ -33,7 +33,7 @@ const Projects = () => {
                   </div>
                </Link>
             </div>
-            <div className="flex flex-row items-center max-w-[400px] border-[1px] border-cyan-600 hover:border-lime-200 rounded-xl overflow-hidden bg-transparent px-10 py-2">
+            <div className="flex flex-row items-center max-w-[400px] border-[1px] hover:border-lime-200 rounded-xl overflow-hidden bg-transparent px-10 py-2">
                <Link
                   href="https://emojis-search-phi.vercel.app/"
                   rel="noopener noreferrer"
@@ -56,7 +56,7 @@ const Projects = () => {
                   </div>
                </Link>
             </div>
-            <div className="flex flex-row items-center max-w-[400px] border-[1px] border-cyan-600 hover:border-lime-200 rounded-xl overflow-hidden bg-transparent px-10 py-2">
+            <div className="flex flex-row items-center max-w-[400px] border-[1px] hover:border-lime-200 rounded-xl overflow-hidden bg-transparent px-10 py-2">
                <Link
                   href="https://my-nba-livid.vercel.app/login"
                   rel="noopener noreferrer"
