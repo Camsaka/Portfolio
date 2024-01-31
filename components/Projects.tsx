@@ -12,7 +12,7 @@ const Projects = () => {
             PROJECTS
          </h1>
          <div className="grid grid-cols-3 justify-items-center justify-around gap-10 mt-10">
-            <div className="flex md:flex-row max-w-[400px] border-[1px] hover:border-lime-200 rounded-xl overflow-hidden bg-transparent px-10 py-2">
+            <div className="flex flex-row items-center max-w-[600px] overflow-hidden bg-transparent px-10 py-2 hover:-translate-y-1 hover:scale-110 transition ease-in">
                <Link
                   href="https://r3vive.vercel.app/"
                   rel="noopener noreferrer"
@@ -22,19 +22,23 @@ const Projects = () => {
                   <div className="flex-row flex items-center">
                      <Image
                         src="/logoR3VIVE.jpg"
-                        height={150}
-                        width={150}
+                        height={120}
+                        width={120}
                         alt="R3vive project"
                      />
-                     <p className="text-gray-500 text-sm p-3">
-                        Complexe prototype of a plateforme to secured
-                        certificate of luxury watches.
-                     </p>
+                     <div className="p-3 h-full w-full ml-3">
+                        <p className="text-white text-2xl">R3vive.com</p>
+                        <br />
+                        <p className="text-gray-500 text-sm">
+                           Complexe prototype of a plateforme to secured
+                           certificate of luxury watches.
+                        </p>
+                     </div>
                   </div>
                </Link>
             </div>
 
-            <div className="flex flex-row items-center max-w-[400px] border-[1px] hover:border-lime-200 rounded-xl overflow-hidden bg-transparent px-10 py-2">
+            <div className="flex flex-row items-center max-w-[400px] overflow-hidden bg-transparent px-10 py-2 hover:-translate-y-1 hover:scale-110 transition ease-in">
                <Link
                   href="https://portfolio-camsaka.vercel.app/"
                   rel="noopener noreferrer"
@@ -58,7 +62,7 @@ const Projects = () => {
                   </div>
                </Link>
             </div>
-            <div className="flex flex-row items-center max-w-[400px] border-[1px] hover:border-lime-200 rounded-xl overflow-hidden bg-transparent px-10 py-2">
+            <div className="flex flex-row items-center max-w-[400px] overflow-hidden bg-transparent px-10 py-2 hover:-translate-y-1 hover:scale-110 transition ease-in">
                <Link
                   href="https://emojis-search-phi.vercel.app/"
                   rel="noopener noreferrer"
