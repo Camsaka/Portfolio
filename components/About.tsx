@@ -11,7 +11,7 @@ const About = () => {
                A PROPOS DE MOI
             </h1>
             <p className="text-gray-300 text-center text-base">
-               Développeur de 26 ans, titulaire d&apos;un master en
+               Développeur de 26 ans, je suis titulaire d&apos;un master en
                informatique, certificatifié Tech Lead Blockchain et également
                autodidacte depuis jeune. Je suis curieux, fédérateur et
                perfectionniste, je cherche toujours à apprendre, à
@@ -20,7 +20,7 @@ const About = () => {
                <br />
                <br />
                Je maîtrise les langages de programmation tels que JavaScript et
-               TypeScript, ainsi que des frameworks comme Node.js, Express, et
+               TypeScript, ainsi que des frameworks comme Express, et
                ReactJS. J&apos;ai également une bonne connaissance de la
                programmation orientée objets et des langages SQL et NoSQL. Avec
                une spécialisation dans le web3 je sais également utilisé les

@@ -1,49 +1,81 @@
+import Image from "next/image";
 import React from "react";
 
 const Experience = () => {
    return (
       <section
          id="experience"
-         className="flex flex-row items-center justify-center h-full overflow-hidden transform scale-90"
+         className="flex flex-col items-center justify-center h-full overflow-hidden transform scale-90"
       >
-         <div className="flex flex-col justify-around flex-wrap items-center max-w-3xl">
-            <h1 className="font-semibold text-center text-5xl text-transparent bg-clip-text bg-gradient-to-r  from-cyan-700 to-lime-200 pb-5">
-               EXPERIENCE
-            </h1>
-            <p className="text-white text-center my-5 text-base">
-               J&apos;ai travailler durant 2 ans pour en tant que développeur
-               intégrateur pour un client du secteur banquaire. J&apos;ai
-               contribué au développement et à la dockerisation de la
-               plateforme, résolu des anomalies, géré le versioning et le CI/CD
-               avec Gitlab. Mon rôle comprenait également la collecte des
-               besoins, l&apos;estimation des charges, la rédaction de
-               spécifications fonctionnelles et la formation des nouveaux
-               arrivants.
-               <br />
-               <br />
-               Je suis polyvalent et contribue sur tout les plans à
-               l&apos;efficacité opérationnelle de l&apos;équipe. Je connais
-               bien les méthodes de gestion de projet notamment agile et
-               j&apos;ai l&apos;habitude de travailler en équipe. Je développe
-               également des side projects que vous pouvez parcourir plus bas.
-               <br />
-               N&apos;hésitez pas à passer sur mon GitHub.
-            </p>
-            <div className="flex space-x-4">
-               <div className="bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
-                  React
+         <h1 className="font-semibold text-5xl text-transparent bg-clip-text bg-gradient-to-r  from-cyan-700 to-lime-200 pb-5">
+            EXPERIENCE
+         </h1>
+         <div className="flex md:flex-row sm:flex-col justify-evenly items-start w-full p-3 ">
+            <div className="flex flex-col items-center text-center">
+               <h1 className="text-4xl  font-light text-gray-300 tracking-tighter transition ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer duration-150">
+                  FRONTEND
+               </h1>
+               <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
+                  <Image src="typescript.svg" alt="ts" height={25} width={25}></Image>
+                  <p>Typescript</p>
                </div>
-               <div className="bg-transparent mt-5  cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
-                  JavaScript
+               <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
+                  <Image src="react.svg" alt="ts" height={25} width={25}></Image>
+                  <p>ReactJS</p>
                </div>
-               <div className="bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
-                  Typescript
+               <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
+                  <Image src="next.svg" alt="ts" height={25} width={25}></Image>
+                  <p>Next.JS</p>
                </div>
-               <div className="bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
-                  Node.js
+               <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
+                  <Image src="tailwind.svg" alt="ts" height={25} width={25}></Image>
+                  <p>Tailwind CSS</p>
                </div>
-               <div className="bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
-                  Solidity
+            </div>
+            <div className="flex flex-col items-center text-center">
+               <h1 className="text-4xl  font-light text-gray-300 tracking-tighter transition ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer duration-150">
+                  BACKEND
+               </h1>
+               <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
+                  <Image src="node.svg" alt="ts" height={25} width={25}></Image>
+                  <p>NodeJS</p>
+               </div>
+               <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
+                  <Image src="express.svg" alt="ts" height={25} width={25}></Image>
+                  <p>Express</p>
+               </div>
+               <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
+                  <Image src="postgresql.svg" alt="ts" height={25} width={25}></Image>
+                  <p>Postgresql</p>
+               </div>
+               <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
+                  <Image src="prisma.svg" alt="ts" height={25} width={25}></Image>
+                  <p>Prisma</p>
+               </div>
+               <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
+                  <Image src="python.svg" alt="ts" height={25} width={25}></Image>
+                  <p>Python</p>
+               </div>
+            </div>
+            <div className="flex flex-col items-center text-center">
+               <h1 className="text-4xl  font-light text-gray-300 tracking-tighter transition ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer duration-150">
+                  WEB3
+               </h1>
+               <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
+                  <Image src="solidity.svg" alt="ts" height={25} width={25}></Image>
+                  <p>Solidity</p>
+               </div>
+               <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
+                  <Image src="ethersjs.svg" alt="ts" height={25} width={25}></Image>
+                  <p>Ethers.js</p>
+               </div>
+               <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
+                  <Image src="hardhat.svg" alt="ts" height={25} width={25}></Image>
+                  <p>Hardhat</p>
+               </div>
+               <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
+                  <Image src="wagmi.svg" alt="ts" height={25} width={25}></Image>
+                  <p>Wagmi</p>
                </div>
             </div>
          </div>

@@ -15,7 +15,7 @@ export default function Home() {
             speedFactor={0.008}
             backgroundColor="black"
          />
-         <div className="flex flex-col gap-20">
+         <div className="flex flex-col gap-14">
             <Navbar />
             <Banner />
             <About />
