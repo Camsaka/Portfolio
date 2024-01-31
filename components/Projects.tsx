@@ -40,7 +40,7 @@ const Projects = () => {
 
             <div className="flex flex-row items-center max-w-[400px] overflow-hidden bg-transparent px-10 py-2 hover:-translate-y-1 hover:scale-110 transition ease-in">
                <Link
-                  href="https://portfolio-camsaka.vercel.app/"
+                  href="https://www.camsaka.com"
                   rel="noopener noreferrer"
                   target="_blank"
                   className="z-[1]"
