@@ -47,9 +47,9 @@ const Projects = () => {
                >
                   <div className="flex-row flex items-center my-auto">
                      <Image
-                        src="/logo.svg"
-                        height={100}
-                        width={100}
+                        src="/logo-whithoutname.svg"
+                        height={120}
+                        width={120}
                         alt="Emojis"
                      />
                      <div className="p-3 h-full ml-3">
