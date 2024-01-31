@@ -8,7 +8,7 @@ const Experience = () => {
          className="flex flex-col items-center justify-center h-full overflow-hidden transform scale-90"
       >
          <h1 className="font-semibold text-5xl text-transparent bg-clip-text bg-gradient-to-r  from-cyan-700 to-lime-200 pb-5">
-            EXPERIENCE
+            TECHNICAL SKILLS
          </h1>
          <div className="flex md:flex-row sm:flex-col justify-evenly items-start w-full p-3 ">
             <div className="flex flex-col items-center text-center">
