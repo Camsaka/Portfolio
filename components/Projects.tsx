@@ -56,7 +56,7 @@ const Projects = () => {
                         <p className="text-white text-2xl">Camsaka.com</p>
                         <br />
                         <p className="text-gray-500 text-sm">
-                           My personnal wbesite, where you are now.
+                           My personnal website, where you are now.
                         </p>
                      </div>
                   </div>
@@ -89,8 +89,7 @@ const Projects = () => {
          </div>
          <div className="flex flex-row items-end justify-center mt-20">
             <p className="font-semibold text-3xl text-gray-200 hover:text-lime-200 cursor-pointer">
-               {" "}
-               A suivre{" "}
+               To be continued{" "}
             </p>
             <div className="loader-container w-auto h-auto">
                <div className="loader h-1.5 w-1.5"></div>

@@ -29,7 +29,7 @@ const Footer = () => {
          <div className="flex flex-row items-center justify-center mt-3">
             {" "}
             <p className="text-gray-300 text-center text-sm">
-               Développé avec Next.js
+               Developed with Next.js
             </p>
             <Image
                   src={"/vercel.svg"}

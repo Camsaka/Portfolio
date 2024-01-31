@@ -11,7 +11,7 @@ const About = () => {
                ABOUT ME
             </h1>
             <p className="text-gray-300 text-center text-base">
-               I&apos;m a 26-year-old developer with a master&apos;s degree in
+               I&apos;m a 26 years old developer with a master&apos;s degree in
                computer science, certified as a Blockchain Tech Lead and have
                been self-taught since I was young. I&apos;m curious, a team
                player and a perfectionist. I&apos;m always looking to learn and
@@ -19,7 +19,7 @@ const About = () => {
                <br />
                <br />
                I&apos;m proficient in programming languages like JavaScript and
-               TypeScript, as well as frameworks like Express and ReactJS. I
+               TypeScript, as well as frameworks like Express or ReactJS. I
                also have a good knowledge of object-oriented programming and SQL
                and NoSQL languages. With a specialisation in web3, I also know
                how to use the tools needed to integrate it into your

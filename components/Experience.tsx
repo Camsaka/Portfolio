@@ -16,6 +16,10 @@ const Experience = () => {
                   FRONTEND
                </h1>
                <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
+                  <Image src="javascript.svg" alt="ts" height={25} width={25}></Image>
+                  <p>Javascript</p>
+               </div>
+               <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
                   <Image src="typescript.svg" alt="ts" height={25} width={25}></Image>
                   <p>Typescript</p>
                </div>
@@ -47,6 +51,10 @@ const Experience = () => {
                <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
                   <Image src="postgresql.svg" alt="ts" height={25} width={25}></Image>
                   <p>Postgresql</p>
+               </div>
+               <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
+                  <Image src="mongodb.svg" alt="ts" height={25} width={25}></Image>
+                  <p>MongoDB</p>
                </div>
                <div className="flex flex-row space-x-3 bg-transparent mt-5 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max hover:bg-slate-600">
                   <Image src="prisma.svg" alt="ts" height={25} width={25}></Image>
