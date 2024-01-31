@@ -8,24 +8,22 @@ const About = () => {
       >
          <div className="flex flex-col justify-around flex-wrap items-center max-w-3xl">
             <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-lime-200 to-cyan-700 font-semibold text-5xl pb-10">
-               A PROPOS DE MOI
+               ABOUT ME
             </h1>
             <p className="text-gray-300 text-center text-base">
-               Développeur de 26 ans, je suis titulaire d&apos;un master en
-               informatique, certificatifié Tech Lead Blockchain et également
-               autodidacte depuis jeune. Je suis curieux, fédérateur et
-               perfectionniste, je cherche toujours à apprendre, à
-               m&apos;améliorer et n&apos;ai pas peur de me lancer dans de
-               nouveaux projets.
+               I&apos;m a 26-year-old developer with a master&apos;s degree in
+               computer science, certified as a Blockchain Tech Lead and have
+               been self-taught since I was young. I&apos;m curious, a team
+               player and a perfectionist. I&apos;m always looking to learn and
+               improve, and I&apos;m not afraid to take on new projects.
                <br />
                <br />
-               Je maîtrise les langages de programmation tels que JavaScript et
-               TypeScript, ainsi que des frameworks comme Express, et
-               ReactJS. J&apos;ai également une bonne connaissance de la
-               programmation orientée objets et des langages SQL et NoSQL. Avec
-               une spécialisation dans le web3 je sais également utilisé les
-               outils permettant de l&apos;intégrer à vos applications. Solidity
-               et Ethers.js n&apos;ont plus aucun secret pour moi.
+               I&apos;m proficient in programming languages like JavaScript and
+               TypeScript, as well as frameworks like Express and ReactJS. I
+               also have a good knowledge of object-oriented programming and SQL
+               and NoSQL languages. With a specialisation in web3, I also know
+               how to use the tools needed to integrate it into your
+               applications. Solidity and Ethers.js hold no secrets for me.
             </p>
          </div>
       </section>

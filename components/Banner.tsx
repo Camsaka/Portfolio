@@ -17,16 +17,20 @@ export default function Banner() {
                CAMILLE GAUTIER
             </div>
             <p className="text-2xl font-medium text-gray-300">
-               Je code avec
+               I
                <span className="text-transparent font-semibold bg-clip-text bg-gradient-to-r from-lime-200 to-cyan-700">
                   {" "}
-                  Passion
+                  Code
                </span>{" "}
-               🚀
+               and
+               <span className="text-transparent font-semibold bg-clip-text bg-gradient-to-r from-lime-200 to-cyan-700">
+                  {" "}
+                  Learn
+               </span>{" "}
+               with passion 🚀
             </p>
             <p className="text-md text-gray-200 my-5 max-w-xl">
-               Jeune développeur passionné, je développe des applications web
-               performantes et sécurisées.
+            As a passionate young developer, I develop high-performance and secure applications.
             </p>
             <div className="text-md flex justify-center">
                <button
@@ -35,7 +39,7 @@ export default function Banner() {
                   }
                   className="text-white font-semibold hover:bg-white rounded-3xl hover:text-gray-950 py-3 px-10 border border-white hover:border-transparent animate-pulse"
                >
-                  Contacter moi
+                  Contact me
                </button>
             </div>
          </div>
