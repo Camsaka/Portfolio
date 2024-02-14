@@ -18,12 +18,10 @@ const About = () => {
                improve, and I&apos;m not afraid to take on new projects.
                <br />
                <br />
-               I&apos;m proficient in programming languages like JavaScript and
-               TypeScript, as well as frameworks like Express or ReactJS. I
-               also have a good knowledge of object-oriented programming and SQL
-               and NoSQL languages. With a specialisation in web3, I also know
-               how to use the tools needed to integrate it into your
-               applications. Solidity and Ethers.js hold no secrets for me.
+               I can develop any type of application for you from scratch
+               or overhaul your existing applications. With a web3 speciality, I
+               can also help you understand and implement use cases on
+               blockchain.
             </p>
          </div>
       </section>

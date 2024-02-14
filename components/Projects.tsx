@@ -30,8 +30,9 @@ const Projects = () => {
                         <p className="text-white text-2xl">R3vive.com</p>
                         <br />
                         <p className="text-gray-500 text-sm">
-                           Complexe prototype of a plateforme to secured
-                           certificate of luxury watches.
+                           Complex prototype of an application for issuing
+                           certificates of authenticity for second-hand luxury
+                           brands.
                         </p>
                      </div>
                   </div>
@@ -80,7 +81,7 @@ const Projects = () => {
                         <p className="text-white text-2xl">Emojis Search</p>
                         <br />
                         <p className="text-gray-500 text-sm">
-                           Look for your favourite emoji.
+                           Find and use your favourite emojis.
                         </p>
                      </div>
                   </div>
